@@ -1,0 +1,8 @@
+rotation -11thquestion
+**arrangement and rearrangement -5th question**
+                                -7th question-pushing zeros to end of an array
+
+
+gfg-dsa practice -Find duplicates in an array 
+                    -minimum number of jumps  
+*****nice approach in key pair question gfg -dsa practice

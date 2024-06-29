@@ -1,0 +1,27 @@
+int arr[]={1,2,3,8};   
+int n=sizeof(arr)/sizeof(arr[0]);
+int i=0,j=0;
+int sum=5;
+int currsum=0;
+while (j<n && currsum>sum )
+{
+   currsum=currsum+arr[j];
+   j++;
+}
+if(currsum==sum){
+   cout<<i<<" "<<j;
+   return 0;
+}
+while (j<n)
+{
+   currsum=currsum+arr[j];
+while (sum>currsum)
+{
+  currsum=currsum-arr[i];
+  i++;
+}
+if(currsum==sum){
+   cout<<i<<" "<<j;
+}
+j++;
+}
